@@ -13,9 +13,10 @@ Atividade Final da disciplina como requisito para a aprovação na disciplina de
 Coloque a pasta em seu Google Drive
 
 ```bash
-from google.colab import drive
+1)from google.colab import drive
 drive.mount('/content/drive/', force_remount=True) # Monta pastas do Google Drive.
-cd /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo # Instalar requirements - Executar toda vez que entrar no Colab.
+
+2)cd /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo # Instalar requirements - Executar toda vez que entrar no Colab.
 ```
 
 ## Comandos
