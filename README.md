@@ -21,24 +21,30 @@ drive.mount('/content/drive/', force_remount=True) # Monta pastas do Google Driv
 
 ## Comandos
 
-- `./run`: Executa comandos dentro do container da aplicação
-- `make help`: Mostra a explicação dos comandos executados com `make`
+- `!python3 /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/train.py -a srgan --gpu 0 --gan-epochs 200 --psnr-epoch 200 /content/drive/MyDrive/DeepLearning/DatasetFinalPb`: Treinamento
+- `!python3 test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/DeepLearning/placaIARA01.png --model-path /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/weights/GAN-best.pth`: Teste
 
 ## Dependências
 
-O Docker **não atualiza** mudanças de dependencias instaladas pelo `pip`. Caso queira adicionar uma nova dependência, adicione o nome da biblioteca nova no arquivo `requirements.txt`
+`requirements.txt`
 
 ```python
-Django>=3.0,<4.0
-psycopg2-binary>=2.8
-django-seed
-django-filter==2.4.0
-django-cpf==0.1.0
-django-phonenumber-field[phonenumbers]==5.0.0
+opencv-python>=4.5.2.52
+torchvision>=0.9.1+cu111
+Pillow>=8.2.0
+numpy>=1.19.5
+torch>=1.8.1+cu111
+tqdm>=4.60.0
+scipy>=1.6.3
+prettytable>=2.1.0
+thop>=0.0.31.post2005241907
+setuptools>=56.2.0
+tensorboardX>=2.2
+lpips>=0.1.3
+albumentations
+easyocr
+pytesseract
+imutils
 ```
 
-Digite o comando a seguir para buildar a nova imagem e inicializar a aplicação atualizada:
 
-```bash
-make build up
-```
