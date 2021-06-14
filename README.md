@@ -1,30 +1,29 @@
 # Using Generative Adversarial Network techniques to upscale images for Automatic License Plate Recognition
-Atividade Final da disciplina como requisito para a aprovação na disciplina de Deep Learning em 2021/01.
+Task as a requirement for approval in the Deep Learning course from PPGI/UFES 2021/01.
 
-<!-- O site está temporariamente hospedado no url a seguir: https://ledsplay.davipetris.me/ -->
-
-## Requisitos
+## Requirements
 
 - `Google Collab ou JupyterNotebook`
 - `Google Drive`
 
-## Inicializando o projeto
+## Initializing the project
 
-Coloque a pasta em seu Google Drive
+
+Put the folder 'XXXX' in your Google Drive
 
 ```bash
 1)from google.colab import drive
-drive.mount('/content/drive/', force_remount=True) # Monta pastas do Google Drive.
+drive.mount('/content/drive/', force_remount=True) # Mount Google Drive folders.
 
-2)cd /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo # Instalar requirements - Executar toda vez que entrar no Colab.
+2)cd /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo # Install requirements - Run every time you enter Colab.
 ```
 
-## Comandos
+## Commands
 
-- `!python3 /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/train.py -a srgan --gpu 0 --gan-epochs 200 --psnr-epoch 200 /content/drive/MyDrive/DeepLearning/DatasetFinalPb`: Treinamento
-- `!python3 test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/DeepLearning/placaIARA01.png --model-path /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/weights/GAN-best.pth`: Teste
+- `!python3 /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/train.py -a srgan --gpu 0 --gan-epochs 200 --psnr-epoch 200 /content/drive/MyDrive/DeepLearning/DatasetFinalPb`: Training
+- `!python3 test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/DeepLearning/placaIARA01.png --model-path /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/weights/GAN-best.pth`: Testing
 
-## Dependências
+## Dependencies
 
 `requirements.txt`
 
