@@ -20,8 +20,8 @@ drive.mount('/content/drive/', force_remount=True) # Mount Google Drive folders.
 
 ## Commands
 
-- `!python3 /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/train.py -a srgan --gpu 0 --gan-epochs 200 --psnr-epoch 200 /content/drive/MyDrive/DeepLearning/DatasetFinalPb`: Training
-- `!python3 test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/DeepLearning/placaIARA01.png --model-path /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo/weights/GAN-best.pth`: Testing
+- `!python3 /content/drive/MyDrive/PASTA/train.py -a srgan --gpu 0 --gan-epochs 200 --psnr-epoch 200 /content/drive/MyDrive/DeepLearning/DatasetFinalPb`: Training
+- `!python3 /content/drive/MyDrive/PASTA/test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/PASTA/PLACADETESTE.png --model-path/content/drive/MyDrive/PASTA/weights/GAN-best.pth`: Testing using the last/best GAN values.
 
 ## Dependencies
 
