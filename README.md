@@ -6,21 +6,16 @@ Atividade Final da disciplina como requisito para a aprovação na disciplina de
 ## Requisitos
 
 - `Google Collab ou JupyterNotebook`
+- `Google Drive`
 
 ## Inicializando o projeto
 
-```bash
-make # Gerar e iniciar o container da aplicação
-make migrate migrations populate # Preparar o banco de dados e populá-lo com resultados de consultas SPARQL
-```
-
-Então acesse: http://localhost:8000
-
-Caso ocorra problemas de permissão durante o Make (e.g. PermissionError: [Errno 13] Permission denied), execute:
+Coloque a pasta em seu Google Drive
 
 ```bash
-sudo groupadd docker # criar um grupo docker
-sudo usermod -aG docker $USER # Adicione seu usuário ao grupo docker.
+from google.colab import drive
+drive.mount('/content/drive/', force_remount=True) # Monta pastas do Google Drive.
+cd /content/drive/MyDrive/DeepLearning/SRGAN-PyTorch-master-Novo # Instalar requirements - Executar toda vez que entrar no Colab.
 ```
 
 ## Comandos
