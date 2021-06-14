@@ -1,13 +1,11 @@
-# DWWS-LedsPlay
-Sistema de Gestão de Competências com Gamificação, construído como requisito parcial para a aprovação na disciplina de Desenvolvimento Web e Web Semântica em 2020/2E.
+# Using Generative Adversarial Network techniquesto upscale images for Automatic License PlateRecognition
+Atividade Final da disciplina como requisito para a aprovação na disciplina de Deep Learning em 2021/01.
 
 <!-- O site está temporariamente hospedado no url a seguir: https://ledsplay.davipetris.me/ -->
 
 ## Requisitos
 
-- `docker`
-- `docker-compose`
-- `make`
+- `Google Collab ou JupyterNotebook`
 
 ## Inicializando o projeto
 
