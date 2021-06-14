@@ -1,4 +1,4 @@
-# Using Generative Adversarial Network techniquesto upscale images for Automatic License PlateRecognition
+# Using Generative Adversarial Network techniques to upscale images for Automatic License Plate Recognition
 Atividade Final da disciplina como requisito para a aprovação na disciplina de Deep Learning em 2021/01.
 
 <!-- O site está temporariamente hospedado no url a seguir: https://ledsplay.davipetris.me/ -->
