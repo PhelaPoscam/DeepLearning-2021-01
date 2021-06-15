@@ -14,7 +14,9 @@ Put the folder 'FOLDER' in your Google Drive
 1)from google.colab import drive
 drive.mount('/content/drive/', force_remount=True) # Mount Google Drive folders.
 
-2)cd /content/drive/MyDrive/FOLDER # Install requirements - Run every time you enter Colab.
+2)cd /content/drive/MyDrive/FOLDER # Install requirements
+  !pip install -r requirements.txt
+ - Run every time you enter Colab.
 ```
 
 ## Commands for SRGAN
