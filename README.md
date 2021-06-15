@@ -68,6 +68,6 @@ torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.p
 
 -[DLSS](https://github.com/vee-upatising/DLSS)
 
--[ALPN and OCR] Authors, builded with OpenCV and EasyOCR
+-[ALPN and OCR](https://github.com/PhelaPoscam/ALPN-with-OpenCV-and-EasyOCR)
 
 
