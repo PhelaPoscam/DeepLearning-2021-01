@@ -3,7 +3,7 @@ Requirement for approval in the Deep Learning course from PPGI/UFES 2021/01.
 
 ## Requirements
 
-- `Google Collab or JupyterNotebook`
+- `Google Collab or JupyterNotebook` (Collab prefered for GPU training)
 - `Google Drive`
 
 ## Initializing the project
