@@ -53,7 +53,8 @@ imutils
 
 ## REFERENCES
 
-[SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
-[DLSS](https://github.com/vee-upatising/DLSS)
+-[SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
+
+-[DLSS](https://github.com/vee-upatising/DLSS)
 
 
