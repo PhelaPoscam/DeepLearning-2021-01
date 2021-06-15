@@ -46,6 +46,17 @@ pytesseract
 imutils
 ```
 
+## Dependencies for ALPN and OCR
+
+```
+tensorboardX
+albumentations
+easyocr
+pytesseract
+imutils
+torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
 ## DLSS
 
 - In `Load Model and Analyze Results.ipynb`, change `model_path` (Path to saved .h5 model), `dataset_path` (Path to folder containing images to super sample), `save_path` (Folder where you want to save to model as well as generated samples)
@@ -56,5 +67,7 @@ imutils
 -[SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
 
 -[DLSS](https://github.com/vee-upatising/DLSS)
+
+-[ALPN and OCR] Authors, builded with OpenCV and EasyOCR
 
 
