@@ -46,8 +46,13 @@ pytesseract
 imutils
 ```
 
+## DLSS
+
+- Just run `Load Model and Analyze Results.ipynb` (Collab prefered for GPU training)
+
 ## REFERENCES
 
 [SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
+[DLSS](https://github.com/vee-upatising/DLSS)
 
 
