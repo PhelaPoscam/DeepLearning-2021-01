@@ -16,7 +16,7 @@ drive.mount('/content/drive/', force_remount=True) # Mount Google Drive folders.
 
 2)cd /content/drive/MyDrive/FOLDER # Install requirements
   !pip install -r requirements.txt
- - Run every time you enter Colab.
+# Run every time you enter Colab.
 ```
 
 ## Commands for SRGAN
