@@ -48,6 +48,6 @@ imutils
 
 ## REFERENCES
 
-[SRGAN] (https://github.com/Lornatang/SRGAN-PyTorch)
+[SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
 
 
