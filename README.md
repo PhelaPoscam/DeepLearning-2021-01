@@ -46,4 +46,8 @@ pytesseract
 imutils
 ```
 
+## REFERENCES
+
+[SRGAN] (https://github.com/Lornatang/SRGAN-PyTorch)
+
 
