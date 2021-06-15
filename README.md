@@ -46,8 +46,14 @@ pytesseract
 imutils
 ```
 
+## DLSS
+
+- In `Load Model and Analyze Results.ipynb`, change `model_path` (Path to saved .h5 model), `dataset_path` (Path to folder containing images to super sample), `save_path` (Folder where you want to save to model as well as generated samples)
+- Run `Load Model and Analyze Results.ipynb` (Collab prefered for GPU training)
+
 ## REFERENCES
 
 [SRGAN](https://github.com/Lornatang/SRGAN-PyTorch)
+[DLSS](https://github.com/vee-upatising/DLSS)
 
 
