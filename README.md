@@ -48,7 +48,8 @@ imutils
 
 ## DLSS
 
-- Just run `Load Model and Analyze Results.ipynb` (Collab prefered for GPU training)
+- In `Load Model and Analyze Results.ipynb`, change `model_path` (Path to saved .h5 model), `dataset_path` (Path to folder containing images to super sample), `save_path` (Folder where you want to save to model as well as generated samples)
+- Run `Load Model and Analyze Results.ipynb` (Collab prefered for GPU training)
 
 ## REFERENCES
 
