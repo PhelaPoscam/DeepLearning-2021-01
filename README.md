@@ -14,6 +14,7 @@ Use demonstration.ipynb to run all codes in this page.
 ## Modifications of Original Code
 
 - SRGAN: Image of butterfly and code were modified in order to observe the training (by a image of a plate). Tensorboard were included in the code.
+- Contribuitions and bug fixes ([see](https://github.com/Lornatang/SRGAN-PyTorch))
 - ESRGAN: Training were modified to train with same conditions of SRGAN (without image augmentation). Result were modified to try the resolution enhancement with original image.
 - Other Algorithms: Algorithm and requirements were modified to run with newest versions of tensorflow.
 
