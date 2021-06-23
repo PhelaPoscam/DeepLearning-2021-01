@@ -1,6 +1,6 @@
 # Using Generative Adversarial Network techniques to upscale images for Automatic License Plate Recognition
 
-Requirement for the discipline of Deep Learning from PPGI/UFES 2021/01.
+Assignment for the discipline of Deep Learning from PPGI/UFES 2021/01.
 
 ## Requirements
 
