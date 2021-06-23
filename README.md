@@ -36,7 +36,7 @@ drive.mount('/content/drive/', force_remount=True) # Mount Google Drive folders.
 - In train.py `base_image = transforms.ToTensor()(Image.open(os.path.join("assets", "baseimage.png")))`: Change this line to the image that you want to upscale
 - `!python3 /content/drive/MyDrive/FOLDER/test_image.py -a srgan --gpu 0 --lr /content/drive/MyDrive/FOLDER/PLACADETESTE.png --model-path/content/drive/MyDrive/PASTA/weights/GAN-best.pth`: Testing using the last/best GAN values.
 
-## Dependencies for SRGAN
+## Dependencies
 
 `requirements.txt`
 
