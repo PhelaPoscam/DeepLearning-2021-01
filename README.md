@@ -11,7 +11,7 @@ Requirement for the discipline of Deep Learning from PPGI/UFES 2021/01.
 
 Use demonstration.ipynb to run all codes in this page.
 
-## Modifications of Original Code
+## Modifications to the Original Code
 
 - SRGAN: Image of butterfly and code were modified in order to observe the training (by a image of a plate). Tensorboard were included in the code.
 - Contribuitions and bug fixes ([see](https://github.com/Lornatang/SRGAN-PyTorch))
