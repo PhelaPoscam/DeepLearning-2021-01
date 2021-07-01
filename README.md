@@ -7,10 +7,6 @@ Assignment for the discipline of Deep Learning from PPGI/UFES 2021/01.
 - `Google Collab or JupyterNotebook` (Collab prefered for GPU training)
 - `Google Drive`
 
-## TLDR
-
-Use demonstration.ipynb to run all codes in this page.
-
 ## Modifications to the Original Code
 
 - SRGAN: BaseImage and code were modified in order to observe the training (by a image of a plate). Tensorboard were included in the code. 
